@@ -1,0 +1,77 @@
+/*common body
+==============*/
+body {
+background-color: lightyellow;
+font-size: 14px;
+font-family: verdana, Arial;
+margin:0;
+bordder-radius:5px;
+}
+
+/*headers
+==========*/
+h1 {
+text-align: center;
+font-family: impact;
+font-size: 500%;
+color: yellow;
+}
+h2 {
+text-decoration: underline;
+font-size: 300%;
+}
+
+/*Common Classes
+=================*/
+.main {
+background-color: grey;
+font-size: 120%;
+color: black;
+padding: 240px;
+}
+
+/*navbar*/
+.navbar {
+background-color: black;
+color: white;
+padding: 15px;
+}
+.navbar ul {
+list-style: none;
+text-align: center;
+}
+.navbar ul li {
+display: inline;
+}
+.navbar ul li a {
+text-decoration: none;
+background-color: black;
+color: white;
+padding:10px;
+}
+.navbar ul li a:hover {
+background-color: white;
+color: black;
+}
+
+/*Home Page
+============*/
+#header {
+background-color: black;
+padding: 20px;
+}
+
+/*box element*/
+#box {
+text-align: center;
+}
+#box a {
+text-decoration: none;
+color: black;
+padding: 100px;
+border: solid 2px black;
+}
+#box a:hover {
+color: white;
+border: solid 2px white;
+}
