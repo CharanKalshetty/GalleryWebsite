@@ -21,8 +21,8 @@ text-decoration: underline overline;
 font-size: 300%;
 background-color: black;
 color:yellow;
-padding: 7px;
 text-align: center;
+width: 100%;
 }
 
 /*Common Classes
@@ -32,7 +32,8 @@ background-color: grey;
 font-size: 120%;
 color: black;
 min-height: 460px;
-padding: 20px;
+text-align: center;
+padding: 20px 0px 20px 0px;
 position: relative;
 }
 
@@ -73,6 +74,7 @@ background-color: #333300;
 height: 25px;
 padding: 5px;
 }
+
 /*Home Page
 ============*/
 #header {
@@ -91,13 +93,14 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 #box li {
-display: inline;
+display: block;
 list-style: none;
+padding: 100px;
 }
 #box li a {
 text-decoration: none;
 color: black;
-padding: 100px;
+padding: 80px;
 border: solid 2px black;
 }
 #box a:hover {
@@ -105,15 +108,27 @@ color: white;
 border: solid 2px white;
 }
 
-/*media queries
-================*/
-@media only screen and (min-width: 600px) {
-#box li (
-display: block;
-background-color: yellow;
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+/*Home Page
+============*/
+#box li {
+display: inline;
+list-style: none;
+padding: 10px;
 }
 #box li a {
-color: white;
+text-decoration: none;
+color: black;
+padding: 100px;
+border: solid 2px black;
 }
 }
+
 
