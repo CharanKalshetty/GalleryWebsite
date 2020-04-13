@@ -33,6 +33,7 @@ font-size: 120%;
 color: black;
 min-height: 460px;
 padding: 20px;
+position: relative;
 }
 
 /*navbar*/
@@ -106,7 +107,7 @@ border: solid 2px white;
 
 /*media queries
 ================*/
-/*
+/* not working
 @media only screen and (min-width: 600px) {
 #box li (
 display: block;
